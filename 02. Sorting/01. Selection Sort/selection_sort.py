@@ -68,13 +68,37 @@ min index = 5
 
 temp = list[i] => list[2] => 4
 list[i] => list[2] = min value(3)
-
 list[min index(5)] = temp(4)
 
 [1, 2, 3, 5, 6, 4]
 
 i = 3, j = 4
+min value = list[i] => list[3] = 5
+min index = i = 3
 
+4 @ list[5] < 5 @ list[3]
+min value = 4
+min index = 5
+
+temp = list[i] => list[3] = 5
+list[i] => list[3] = min value(4)
+list[min index] => list[5] = temp 5
+
+[1, 2, 3, 4, 6, 5]
+
+i = 4, j = 5
+min value = 6
+min index = 4
+
+5 @ list[5] < 6 @ list[4]
+min value = 5
+min index = 5
+
+temp = list[i] = list[4] = 6
+list[4] = min value(5)
+list[5] = temp(6)
+
+[1, 2, 3, 4, 5, 6]
 
 
 
